@@ -4,7 +4,7 @@
 // [345, 897, 568, 234] -> 2
 
 
-int [] array = new int [4];
+int [] array = new int [10];
 for (int i = 0; i < array.Length; i++)
 {
     array[i] = new Random().Next(100, 1000);    
@@ -20,4 +20,4 @@ for (int i = 0; i < array.Length; i++)
         count++;
     }
 }
-Console.WriteLine(count);
+Console.WriteLine("Количество чётных чисел в массиве = " + count);
